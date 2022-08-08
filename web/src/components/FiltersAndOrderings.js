@@ -29,7 +29,7 @@ export default function CurrencyFilter({
         </Orderings>
         <CurrencyFilters>
           <li onClick={handleClick}>
-            <CurrencyButton currencyFilter={filtering} name="">
+            <CurrencyButton currencyFilter={filtering} name="ALL">
               ALL
             </CurrencyButton>
           </li>
